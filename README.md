@@ -10,16 +10,16 @@ Parsed .txt API dumps containing nested JSON.
 Extracted relevant fields manually since API pagination limits prevented automated bulk downloads.
 
 3. Data Cleaning
-Standardized column names
-Removed HTML tags using BeautifulSoup
-Fixed mojibake text issues (â€”)
-Normalized whitespace
-Parsed activities from strings to Python lists
-Split activity info into activity_names and activity_ids
-Removed duplicates
-Converted descriptions to clean UTF-8
-Preserved missing latitude/longitude as NaN
-Saved final cleaned CSV
+-Standardized column names
+-Removed HTML tags using BeautifulSoup
+-Fixed mojibake text issues (â€”)
+-Normalized whitespace
+-Parsed activities from strings to Python lists
+-Split activity info into activity_names and activity_ids
+-Removed duplicates
+-Converted descriptions to clean UTF-8
+-Preserved missing latitude/longitude as NaN
+-Saved final cleaned CSV
 
 ## Chalenges Faced
 
