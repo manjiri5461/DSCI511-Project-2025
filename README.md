@@ -8,7 +8,8 @@ Our project processes US National Park Services data sourced from various API en
 1. Data Acquisition
 Parsed .txt API dumps containing nested JSON.
 Extracted relevant fields manually since API pagination limits prevented automated bulk downloads.
-2. 2. Data Cleaning
+
+3. Data Cleaning
 Standardized column names
 Removed HTML tags using BeautifulSoup
 Fixed mojibake text issues (â€”)
